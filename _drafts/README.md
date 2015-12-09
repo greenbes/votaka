@@ -1,6 +1,6 @@
 > Laws, like sausages, cease to inspire respect in proportion as we know how they are made.
 
-_John Godfrey Saxe_
+-- [https://en.wikiquote.org/wiki/John_Godfrey_Saxe](John Godfrey Saxe "Nope, not Bismarck")
 
 This folder contains works in progress, notes, and other bits of ephemera. It is for raw thoughts, unifinished ideas, and general mucking about.  
 
