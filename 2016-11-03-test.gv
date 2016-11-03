@@ -1,5 +1,5 @@
-digraph  {
-	graph [bb="-68 -24 59 24",
+digraph {
+	graph [bb="-149 -93 122 108",
 		layout=neato,
 		overlap=prism,
 		overlap_scaling=1,
@@ -8,11 +8,30 @@ digraph  {
 		splines=ortho
 	];
 	node [label="\N"];
-	"%3"	 [IVPosition="-325,-177",
-		label=Blah,
-		shape=rectangle];
-	"%5"	 [IVPosition="-266,-176",
+	subgraph "cluster_A9CB085A-AAE3-403C-B968-ACA6F82208E0" {
+		graph [label=""];
+		"%33"		 [IVPosition="135,-46",
+			label=Added,
+			shape=square];
+		"%37"		 [IVPosition="-67,143",
+			label="",
+			shape=circle];
+	}
+	subgraph "cluster_91FD1EC4-315C-4EB7-A595-E3AE622560ED" {
+		graph [label=""];
+		"%27"		 [IVPosition="-325,-177",
+			label=Blah,
+			shape=rectangle];
+		"%29"		 [IVPosition="-266,-176",
+			label="",
+			shape=square];
+	}
+	"%27" -> "%29";
+	"%29" -> "%37"	 [label=Line];
+	"%33" -> "%29";
+	"%37" -> "%33";
+	"%43"	 [IVPosition="224,-52",
 		label="",
-		shape=square];
-	"%3" -> "%5";
+		shape=rectangle];
+	"%37" -> "%43";
 }
