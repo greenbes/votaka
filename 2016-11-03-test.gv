@@ -1,0 +1,18 @@
+digraph  {
+	graph [bb="-68 -24 59 24",
+		layout=neato,
+		overlap=prism,
+		overlap_scaling=1,
+		rankdir=LR,
+		sep="+18",
+		splines=ortho
+	];
+	node [label="\N"];
+	"%3"	 [IVPosition="-325,-177",
+		label=Blah,
+		shape=rectangle];
+	"%5"	 [IVPosition="-266,-176",
+		label="",
+		shape=square];
+	"%3" -> "%5";
+}
